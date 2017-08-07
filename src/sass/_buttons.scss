@@ -1,0 +1,31 @@
+//.am-btn-primary{
+// @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border){
+//
+// }
+//}
+@import "./../lib/bootstrap/assets/stylesheets/bootstrap/mixins";
+@mixin button-frame($btn-color,$btn-hover-color,$btn-border,$btn-hover-border,$btn-bg, $btn-hover-bg) {
+  @include button-variant($btn-color, $btn-bg, $btn-border);
+  &:hover,
+  &:active,
+  &:focus {
+    color: $btn-hover-color;
+    border-color: $btn-hover-border;
+    background-color: $btn-hover-bg;
+  }
+}
+
+//.am-btn-default{
+//  @include button-frame()
+//}
+//
+//.am-btn-primary{
+//  @include button-frame()
+//}
+//
+//.am-btn-secondary{
+//  @include button-frame()
+//}
+//.am-btn-secondary{
+//  @include button-frame()
+//}

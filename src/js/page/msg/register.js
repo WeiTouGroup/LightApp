@@ -1,0 +1,1 @@
+nb.mobile.shell.addPage('msg','app.page.msg.Msg');

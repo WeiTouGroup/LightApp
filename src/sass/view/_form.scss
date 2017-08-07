@@ -1,0 +1,9 @@
+@import "../variables";
+
+.am-form{
+  .am-form-group{
+    i{
+      color: $form-icon-color;
+    }
+  }
+}

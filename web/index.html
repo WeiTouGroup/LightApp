@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/index.1.0.1.min.css">
+    <title>测试</title>
+    <script>
+      var isWeiXin = navigator.userAgent.match('MicroMessenger');
+      function getParam () {
+              var params = location.search;
+              var pMap = [];
+              if (params.indexOf("?") != -1) {
+                  params = params.substr(1).split("&");
+                  for (var i = 0; i < params.length; i++) {
+                      var param = params[i].split('=');
+                      pMap[param[0]] = param[1];
+                  }
+              }
+              return pMap;
+          }
+      var map = getParam();
+      var code = map['code'];
+      var r_code=map['r_code'];
+      var state = map['state'] || 'STATE';
+      var url = location.href;
+      if(isWeiXin && (!code || r_code==1)){
+       location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxaaa8dd2ffc1319df&redirect_uri=http://crmuat.byd.humming-tech.com/gz/test&response_type=code&scope=snsapi_userinfo&state='+state+'&connect_redirect=1#wechat_redirect'
+      }
+      <!--scope=snsapi_userinfo-->
+    </script>
+  </head>
+  <body>
+  </body>
+  <script src="js/index.1.0.1.min.js"></script>
+</html>

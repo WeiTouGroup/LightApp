@@ -1,0 +1,1 @@
+nb.mobile.shell.addPage('vote','app.page.vote.Vote');

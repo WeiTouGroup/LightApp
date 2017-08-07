@@ -1,0 +1,38 @@
+{
+  "title": "测试",
+  "css": {
+    "unshared": [
+      "lib/amazeui/css/amazeui.css",
+      "lib/amazeui/css/amazeui.switch.css",
+      "lib/swiper/css/swiper-3.4.2.min.css",
+      "lib/nb-view/css/style.css",
+      "lib/nb-mobile/css/style.css",
+      "css/sprite.css",
+      "css/index.css"
+    ]
+  },
+  "js": {
+    "unshared": [
+      "lib/wx/jweixin-1.0.0.js",
+      "lib/jquery/jquery-2.2.3.min.js",
+      "lib/hammer/hammer.min.js",
+      "lib/md5/md5.js",
+      "lib/amazeui/js/echo/echo.js",
+      "lib/amazeui/js/amazeui.switch.min.js",
+      "lib/swiper/js/swiper-3.4.2.jquery.min.js",
+      "lib/amazeui/js/amazeui.js",
+      "lib/amazeui/js/amazeui.dialog.js",
+      "lib/pxLoader/dist/pxloader-images.js",
+      "lib/iscroll/iscroll-lite.js",
+      "lib/nb/js/nb.js",
+      "lib/wx/wx.js",
+      "lib/nb-view/js/nb.view.js",
+      "lib/nb-bs/js/nb.bs.js",
+      "lib/nb-mobile/js/nb.mobile.js",
+      "js/Page.js",
+      "js/ImageLoader.js",
+      "js/data.js",
+      "js/util.js"
+    ]
+  }
+}

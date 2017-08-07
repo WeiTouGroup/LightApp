@@ -1,0 +1,1 @@
+nb.mobile.shell.addPage('main','app.page.main.Main');

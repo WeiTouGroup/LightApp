@@ -1,0 +1,28 @@
+{
+  "css": [
+    {
+      "name": "base",
+      "src": [
+
+      ]
+    }
+  ],
+  "js": [
+    {
+      "name": "base",
+      "src": [
+        "lib/jquery/jquery-1.12.3.js",
+        "lib/nb/js/nb.js",
+        "js/app.js",
+        "js/Model.js",
+        "js/Page.js",
+        "js/view/Header.js",
+        "js/view/Footer.js",
+        {
+          "mockup": "js/io.mockup.js",
+          "dev": "js/io.js"
+        }
+      ]
+    }
+  ]
+}

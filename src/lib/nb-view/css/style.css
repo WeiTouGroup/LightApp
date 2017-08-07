@@ -1,0 +1,14 @@
+.nb-v-selector.nb-v-selector-active .nb-v-selector-item {
+  display: none; }
+  .nb-v-selector.nb-v-selector-active .nb-v-selector-item.nb-v-selector-active {
+    display: block; }
+    .nb-v-selector.nb-v-selector-active .nb-v-selector-item.nb-v-selector-active .nb-v-close {
+      display: inline; }
+
+.nb-v-selector .nb-v-selector-item .nb-v-label {
+  cursor: pointer; }
+
+.nb-v-selector .nb-v-selector-item .nb-v-close {
+  cursor: pointer;
+  margin-left: 40px;
+  display: none; }

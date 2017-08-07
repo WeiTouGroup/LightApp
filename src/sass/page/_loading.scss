@@ -1,0 +1,13 @@
+.nb-m-page {
+  &.loading {
+    background-color: #fff;
+    background-repeat: repeat;
+    .text{
+      position: absolute;
+      top: 56%;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}

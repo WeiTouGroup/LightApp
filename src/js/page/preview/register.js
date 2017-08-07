@@ -1,0 +1,1 @@
+nb.mobile.shell.addPage('preview','app.page.preview.Preview');

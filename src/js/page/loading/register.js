@@ -1,0 +1,1 @@
+nb.mobile.shell.addPage('loading','app.page.loading.Loading');

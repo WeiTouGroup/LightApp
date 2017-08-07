@@ -1,0 +1,23 @@
+.app-toast{
+  &.fadeIn{
+    display: block;
+    animation: nb-m-ani-fadeIn .6s .1s ease-out both;
+  }
+  &.fadeOut{
+    display: block;
+    animation: nb-m-ani-fadeOut .6s .1s ease-out both;
+  }
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 70%;
+  text-align: center;
+  width: 100%;
+  z-index: 90000;
+  span {
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    padding: 6px 10px;
+  }
+}

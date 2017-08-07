@@ -1,0 +1,31 @@
+
+.icon-cover {
+  background-image: url('../images/sprite/sprite-cover.png');
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .icon-cover {
+    background-image: url('../images/sprite/sprite-cover@2x.png');
+    background-size: 294px 837px;
+  }
+}
+
+.icon-cover-up {
+  background-position: -0px -0px;
+  width: 39px;
+  height: 17px;
+}
+.icon-cover-car {
+  background-position: -0px -17px;
+  width: 241px;
+  height: 195px;
+}
+.icon-cover-title {
+  background-position: -0px -212px;
+  width: 250px;
+  height: 195px;
+}
+.icon-cover-crumb {
+  background-position: -0px -407px;
+  width: 294px;
+  height: 430px;
+}

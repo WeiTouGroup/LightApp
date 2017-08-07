@@ -1,0 +1,56 @@
+body{
+  position: initial;
+}
+.nb-m-page-ani-mask {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nb-m-page {
+  background-size: cover;
+  background-position: 50% 50%;
+
+  .nb-m-page-content-mask {
+    background-color: rgba(0,0,0,.7);
+  }
+  //&.slideInRight {
+  //  animation: none;
+  //}
+  //&.slideOutLeft{
+  //  animation: none;
+  //}
+}
+
+.nb-m-page-content {
+  .content, .content-top, .content-bottom {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  .content, .content-top, .content-bottom, .content-full {
+    > .v-scroll {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+      > .scroll-inner {
+        position: absolute;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@-webkit-keyframes rotate360 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.btn-audio{
+  display: none;
+}

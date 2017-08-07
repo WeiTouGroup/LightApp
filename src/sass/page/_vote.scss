@@ -1,0 +1,56 @@
+.nb-m-page{
+  &.vote{
+    .nb-m-page-content{
+      .page-content{
+        background-color: #f8f8f8;
+        padding: 10px;
+        .am-form{
+          .vote-title{}
+          .vote-des{}
+          .vote-options{
+            .vote-option-list{
+              .vote-option-item{
+                .am-form-group{
+                  .group-title{
+                    i{
+                      float: right;
+                      width: 30px;
+                    }
+                  }
+                  input{
+                    margin-bottom: 5px;
+                  }
+                }
+              }
+            }
+          }
+          .add-option{
+            line-height: 37px;
+            margin-bottom: 10px;
+            i{
+              margin: 0 10px;
+            }
+          }
+          .vote-time{
+            label{
+              line-height: 37px;
+              margin: 0;
+            }
+            .vote-end-time{
+              input{
+                background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.am-datepicker{
+  position: fixed;
+  width: 90%;
+  top:50% !important;
+  height: 301px !important;
+  margin: -151px 5% 0;
+}
