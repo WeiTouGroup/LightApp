@@ -6,7 +6,7 @@
         name: 'app.page.vote.view.Option',
         view:{
             'data-optionId':nb.bind('optionId'),
-            'class':'vote-option-item',
+            'class':'vote-option-item fade-in',
             $html:{
                 'class':'am-form-group',
                 $html:[{
@@ -87,7 +87,7 @@
         method: {
             init: function () {
                 var self = this;
-                var $items = this.$('items');
+                // var $items = this.$('items');
                 var $add = this.$('add');
                 $add.on('click',function (inEvent) {
                     var $Items = self.$('items',true);

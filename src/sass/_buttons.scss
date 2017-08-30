@@ -3,6 +3,7 @@
 //
 // }
 //}
+@import "variables";
 @import "./../lib/bootstrap/assets/stylesheets/bootstrap/mixins";
 @mixin button-frame($btn-color,$btn-hover-color,$btn-border,$btn-hover-border,$btn-bg, $btn-hover-bg) {
   @include button-variant($btn-color, $btn-bg, $btn-border);
@@ -18,14 +19,16 @@
 //.am-btn-default{
 //  @include button-frame()
 //}
-//
-//.am-btn-primary{
-//  @include button-frame()
-//}
-//
+
+
+.am-btn-primary{
+  @include button-frame($btn-primary-color,$btn-primary-color,$btn-primary-border,$btn-primary-hover,$btn-primary-bg,$btn-primary-border);
+}
+
 //.am-btn-secondary{
 //  @include button-frame()
 //}
 //.am-btn-secondary{
 //  @include button-frame()
 //}
+

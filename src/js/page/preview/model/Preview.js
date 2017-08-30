@@ -21,6 +21,9 @@
                     fn: function (inEvent) {
                         appModel = inEvent.data;
 
+
+
+
                     }
                 });
             },

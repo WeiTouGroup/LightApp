@@ -54,3 +54,11 @@ body{
 .btn-audio{
   display: none;
 }
+
+.fade-in{
+  animation: fadeIn .5s ease-out both;
+}
+.scroll{
+  overflow: scroll;
+  height: 100%;
+}

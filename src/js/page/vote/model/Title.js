@@ -12,6 +12,12 @@
                     type:'text',
                     placeholder:'请输入投票标题'
                 });
+            },
+            check:function () {
+                var value = this.get('value');
+                if (this.checkEmpty(this,'请输入投票标题！')) {
+                    return true;
+                }
             }
         }
     });

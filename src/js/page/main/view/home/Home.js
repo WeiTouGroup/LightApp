@@ -5,7 +5,7 @@
     nb.define({
         name: 'app.page.main.view.home.Home',
         view:{
-            $text:'home'
+            // 'class':''
         },
         method: {
             init: function () {

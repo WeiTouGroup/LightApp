@@ -1,3 +1,44 @@
+.am-btn-primary {
+  color: #fff;
+  background-color: #0e90d2;
+  border-color: #0e90d2; }
+  .am-btn-primary:focus, .am-btn-primary.focus {
+    color: #fff;
+    background-color: #0b6fa2;
+    border-color: #063e5a; }
+  .am-btn-primary:hover {
+    color: #fff;
+    background-color: #0b6fa2;
+    border-color: #0a6999; }
+  .am-btn-primary:active, .am-btn-primary.active,
+  .open > .am-btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0b6fa2;
+    border-color: #0a6999; }
+    .am-btn-primary:active:hover, .am-btn-primary:active:focus, .am-btn-primary:active.focus, .am-btn-primary.active:hover, .am-btn-primary.active:focus, .am-btn-primary.active.focus,
+    .open > .am-btn-primary.dropdown-toggle:hover,
+    .open > .am-btn-primary.dropdown-toggle:focus,
+    .open > .am-btn-primary.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #095881;
+      border-color: #063e5a; }
+  .am-btn-primary:active, .am-btn-primary.active,
+  .open > .am-btn-primary.dropdown-toggle {
+    background-image: none; }
+  .am-btn-primary.disabled:hover, .am-btn-primary.disabled:focus, .am-btn-primary.disabled.focus, .am-btn-primary[disabled]:hover, .am-btn-primary[disabled]:focus, .am-btn-primary[disabled].focus,
+  fieldset[disabled] .am-btn-primary:hover,
+  fieldset[disabled] .am-btn-primary:focus,
+  fieldset[disabled] .am-btn-primary.focus {
+    background-color: #0e90d2;
+    border-color: #0e90d2; }
+  .am-btn-primary .badge {
+    color: #0e90d2;
+    background-color: #fff; }
+  .am-btn-primary:hover, .am-btn-primary:active, .am-btn-primary:focus {
+    color: #fff;
+    border-color: #0c79b1;
+    background-color: #0e90d2; }
+
 .app-toast {
   position: absolute;
   display: none;
@@ -25,9 +66,6 @@
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 6px 10px; }
-
-.am-form .am-form-group i {
-  color: #337ab7; }
 
 body {
   position: initial; }
@@ -67,6 +105,16 @@ body {
 
 .btn-audio {
   display: none; }
+
+.fade-in {
+  -webkit-animation: fadeIn .5s ease-out both;
+     -moz-animation: fadeIn .5s ease-out both;
+       -o-animation: fadeIn .5s ease-out both;
+          animation: fadeIn .5s ease-out both; }
+
+.scroll {
+  overflow: scroll;
+  height: 100%; }
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -5322,6 +5370,15 @@ body {
     .nb-m-page-footer-wrapper .nb-m-footer .footer-tab-bar-item.nb-v-active {
       color: #337ab7; }
 
+.am-form .am-form-group i {
+  color: #337ab7; }
+
+.am-form-group .input-opts {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 18px; }
+
 .nb-m-page.loading {
   background-color: #fff;
   background-repeat: repeat; }
@@ -5345,6 +5402,11 @@ body {
          -moz-animation: fadeIn .8s ease-out both;
            -o-animation: fadeIn .8s ease-out both;
               animation: fadeIn .8s ease-out both; }
+    .nb-m-page.main .nb-m-page-content-wrapper .nb-m-page-content .main-pages .main-page.am-popup.active {
+      -webkit-animation: none;
+         -moz-animation: none;
+           -o-animation: none;
+              animation: none; }
 
 .nb-m-page.vote .nb-m-page-content .page-content {
   background-color: #f8f8f8;
@@ -5371,5 +5433,27 @@ body {
   top: 50% !important;
   height: 301px !important;
   margin: -151px 5% 0; }
+
+.nb-m-page.signUp .page-content.check-mobile .code {
+  display: none; }
+
+.nb-m-page.signUp .page-content.check-code .code {
+  -webkit-animation: fadeIn .5s ease both;
+     -moz-animation: fadeIn .5s ease both;
+       -o-animation: fadeIn .5s ease both;
+          animation: fadeIn .5s ease both; }
+
+.nb-m-page.signUp .page-content .code {
+  position: relative; }
+  .nb-m-page.signUp .page-content .code button {
+    position: absolute;
+    top: 0;
+    line-height: 30px;
+    right: 30px;
+    color: #f00; }
+
+.nb-m-page.signUp .page-content .phone .am-icon-mobile-phone {
+  font-size: 20px;
+  left: 0.6em; }
 
 /*# sourceMappingURL=maps/index.css.map */

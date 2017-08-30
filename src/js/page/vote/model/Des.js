@@ -16,12 +16,18 @@
     });
     nb.define({
         name: 'app.page.vote.model.Des',
-        parent:'nb.Model',
+        parent:'app.model.Input',
         method: {
             init: function () {
                 var textarea = new Textarea();
                 this.set('textarea',textarea);
 
+            },
+            check:function () {
+                var value = this.get('value');
+                if (this.checkEmpty(this,'请输入投票详情！')) {
+                    return true;
+                }
             }
         }
     });

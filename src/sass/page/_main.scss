@@ -1,17 +1,22 @@
 .nb-m-page {
   &.main {
-    .nb-m-page-footer-wrapper{
+    .nb-m-page-footer-wrapper {
       display: block;
     }
     .nb-m-page-content-wrapper {
       bottom: 50px;
-      .nb-m-page-content{
-        .main-pages{
-          .main-page{
+      .nb-m-page-content {
+        .main-pages {
+          .main-page {
             display: none;
-            &.active{
+            &.active {
               display: block;
               animation: fadeIn .8s ease-out both;
+            }
+            &.am-popup {
+              &.active{
+                animation:none;
+              }
             }
           }
         }

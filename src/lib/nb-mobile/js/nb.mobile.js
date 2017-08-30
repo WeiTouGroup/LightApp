@@ -883,7 +883,8 @@ nb.define({
             $text: nb.bind('title')
         }, {
             $name: 'optsWrapper',
-            'class': 'am-u-sm-2 opts'
+            'class': 'am-u-sm-2 opts',
+            $text:nb.bind('opts')
         }]
     },
     method: {

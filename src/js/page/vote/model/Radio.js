@@ -7,8 +7,10 @@
         method:{
             init:function () {
                 this.setOpts({
-                    text:'单选'
-                })
+                    text:'单选',
+                    name:'requireOptions',
+                    checked:'checked'
+                });
             }
         }
     });
@@ -17,7 +19,8 @@
         method:{
             init:function () {
                 this.setOpts({
-                    text:'多选'
+                    text:'多选',
+                    name:'requireOptions'
                 });
             }
         }

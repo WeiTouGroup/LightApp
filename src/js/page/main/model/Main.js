@@ -13,9 +13,11 @@
             },
             _initModel: function () {
                 this.set('footer', new app.page.main.model.Footer());
+                content.set('addModel',new app.page.main.model.Add());
             },
             _initEvent: function () {
                 var footer = this.get('footer');
+                var addModel = content.get('addModel');
                 this.onChange({
                     name: 'appModel',
                     scope: this,
@@ -28,8 +30,16 @@
                     scope: this,
                     fn: function (inEvent) {
                         var index = inEvent.data;
-                        content.set('activePageIndex', index);
+                        addModel.set('status','');
+                        if(index==1){
+                            setTimeout(function () {
+                                addModel.set('status','am-modal-active');
+                            });
+                        }
                         footer.set('activeIndex', index);
+                        content.set('activePageIndex', index);
+
+
                     }
                 });
             },

@@ -5,7 +5,10 @@
     nb.define({
         name: 'app.page.preview.view.Content',
         view:{
-            $text:'preview'
+            'class':'',
+            $html:[{
+                'class':'preview'
+            }]
         },
         method: {
             init: function () {

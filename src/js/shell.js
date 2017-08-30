@@ -19,6 +19,6 @@
     //        };
     //})();
     var shell = nb.mobile.shell;
-    shell.setDefaultPage('main');
+    shell.setDefaultPage('signUp');
     shell.start();
 })();

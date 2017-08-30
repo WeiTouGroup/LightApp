@@ -10,7 +10,7 @@
                 'class': 'main-page',
                 $type: 'app.page.main.view.list.List',
                 $model: 'listModel'
-            }, {
+            },{
                 'class': 'main-page',
                 $type: 'app.page.main.view.add.Add',
                 $model: 'addModel'

@@ -14,7 +14,7 @@
                 var state = paramMap['state'];
 
                 this.set('wxCode', code);
-                this.set('defaultPage', 'main');
+                // this.set('defaultPage', 'main');
                 if(state != 'STATE'){
                     this.set('pOpenId',state);
                 }

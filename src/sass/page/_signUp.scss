@@ -1,0 +1,32 @@
+.nb-m-page {
+  &.signUp {
+    .page-content {
+      &.check-mobile {
+        .code {
+          display: none;
+        }
+      }
+      &.check-code {
+        .code {
+          animation: fadeIn .5s ease both;
+        }
+      }
+      .code {
+        position: relative;
+        button{
+          position: absolute;
+          top: 0;
+          line-height: 30px;
+          right: 30px;
+          color: #f00;
+        }
+      }
+      .phone {
+        .am-icon-mobile-phone {
+          font-size: 20px;
+          left: 0.6em;
+        }
+      }
+    }
+  }
+}

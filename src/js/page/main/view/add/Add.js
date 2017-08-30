@@ -5,7 +5,10 @@
     nb.define({
         name: 'app.page.main.view.add.Add',
         view:{
-            $text:'add'
+            'class':['add-page-content am-popup',nb.bind('status')],
+            $html:[{
+
+            }]
         },
         method: {
             init: function () {
